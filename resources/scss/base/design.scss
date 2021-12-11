@@ -1,0 +1,11 @@
+html, body {
+    font-family: sans-serif;
+}
+
+a {
+    color: $main-text-color;
+
+    &:hover {
+        color: $secondary-text-color;
+    }
+}

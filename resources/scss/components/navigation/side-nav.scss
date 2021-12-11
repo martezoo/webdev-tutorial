@@ -1,0 +1,14 @@
+.side-nav {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        padding: 5px 0;
+
+        cursor: pointer;
+    }
+
+    &--bottom {
+        margin-top: auto;
+    }
+}
